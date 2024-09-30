@@ -1,7 +1,6 @@
 import React from "react";
 import { FaHome, FaSearch, FaFile, FaPeace } from "react-icons/fa";
 import { MdPeople, MdImportExport } from "react-icons/md";
-import { Link } from "react-router-dom";
 
 export default function Nav() {
   return (
@@ -25,9 +24,7 @@ export default function Nav() {
               <div>
                 <FaHome />
               </div>
-              <Link>
-                <div>Home</div>
-              </Link>
+              <div>Home</div>
             </div>
             <div className="flex items-center text-lg gap-4">
               <div>
